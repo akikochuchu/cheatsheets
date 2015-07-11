@@ -1,8 +1,10 @@
 ### Disassemble @ Entry Point
 ```
- [0x000002af]> aa
- [0x000002af]> pdf @ entry0
- 
- [0x000002af]> aa
- [0x000002af]> pd @ entry0
+[0x08048340]> aa
+[0x08048340]> pdf entry0
+```
+
+### Disassemble Function
+```
+[0x08048340]> pdf @sym.main
 ```
