@@ -8,3 +8,8 @@
 ```
 [0x08048340]> pdf @sym.main
 ```
+
+### List Functions
+```
+[0x08048340]> afl
+```
