@@ -1,2 +1,0 @@
-# File Fuzzing 
-``` radamsa -o pdf_fuzz/mupdf_fuzz_%n.pdf -n 100 ../mupdf_test.pdf -M - ```
