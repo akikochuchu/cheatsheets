@@ -8,7 +8,7 @@ http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0204j/Cihfddaf.ht
 
 ```0000bf18   blx   r2```
 
-## Multiple Register Data Tranfer
+## Multiple Register Data Transfer
 
 ```LDMIA r0, {r3, r7}```
 
