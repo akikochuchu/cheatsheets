@@ -39,12 +39,13 @@ http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0204j/Cihfddaf.ht
 - Store ``r6, r7, r8`` into words addressed by ```r1```
 - Write back the final address into ```r1```
 - Decrement before each store
-- 
+
+
 ## Memory Addressing
 
 Each addressing mode includes a base memory address and an offset in bytes.
 
-### Pre-Index
+###Pre-Index
 
 **Format**
 
