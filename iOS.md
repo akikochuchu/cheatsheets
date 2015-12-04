@@ -32,7 +32,9 @@ Sign the ```debugserver```:
 codesign -s - --entitlements entitlements.plist -f debugserver
 ```
 
-Attack the ```debugserver``` to a process:
+Copy the ```debugserver``` over to your device.
+
+Attach the ```debugserver``` to a process:
 ```
 debugserver *:6666 --attach SomeApplication
 ```
