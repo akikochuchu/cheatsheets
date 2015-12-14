@@ -1,6 +1,6 @@
 ## Launch Process
 ```
-process launch
-run 
-r
+(lldb) process launch
+(lldb) run 
+(lldb) r
 ```
