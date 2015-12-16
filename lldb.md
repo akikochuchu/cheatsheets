@@ -6,5 +6,5 @@
 ```
 ## Set Disassembly Flavor
 ```
-target.x86-disassembly-flavor intel
+settings set target.x86-disassembly-flavor intel
 ```
