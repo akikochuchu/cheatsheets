@@ -4,6 +4,8 @@
 
 ```java -jar smali.jar -o classes.dex out/```
 
+```java -jar oat2dex.jar boot /system/framework/arm/boot.oat```
+
 ##Find CodePath for Target Package
 
 ```adb shell "su -c 'cat /data/system/packages.xml'" | grep 'com.sec.android.mmapp' | grep 'codePath=*'```
