@@ -6,6 +6,12 @@
 
 ```java -jar oat2dex.jar boot /system/framework/arm/boot.oat```
 
+### Lollipop
+
+```
+java -jar oat2dex.jar ~/samsung-j1/app/AllshareFileShare/arm/AllshareFileShare.odex ~/samsung-j1/framework/arm/odex
+```
+
 ##Find CodePath for Target Package
 
 ```adb shell "su -c 'cat /data/system/packages.xml'" | grep 'com.sec.android.mmapp' | grep 'codePath=*'```
