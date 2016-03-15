@@ -1,16 +1,16 @@
 ##iOS Remote Debugging with LLDB
 
-Mount the DeveloperDiskImage.dmg:
+Mount the **DeveloperDiskImage.dmg**
 ```
 hdiutil attach /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/8.0\ \(12A365\)/DeveloperDiskImage.dmg
 ```
 
-Copy the ```debugserver``` locally: 
+Copy the ```debugserver``
 ```
 cp /Volumes/DeveloperDiskImage/usr/bin/debugserver /Users/rotlogix/
 ```
 
-Create a new ```entitlements.plist```:
+Create a new ```entitlements.plist```
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/ PropertyList-1.0.dtd">
@@ -27,25 +27,25 @@ Create a new ```entitlements.plist```:
 </plist>
 ```
 
-Sign the ```debugserver```:
+Sign the ```debugserver```
 ```
 codesign -s - --entitlements entitlements.plist -f debugserver
 ```
 
-Copy the ```debugserver``` over to your device.
+Copy the ```debugserver``` over to your device
 
-Attach the ```debugserver``` to a process:
+Attach the ```debugserver``` to a process
 ```
 debugserver *:6666 --attach SomeApplication
 ```
 
-Attach LLDB to the remote ```debugserver```:
+Attach LLDB to the remote ```debugserver```
 ```
 (lldb) platform select remote-ios
 (lldb) process connect connect://192.168.0.8:6666
 ```
 
-Create target from executable:
+Create target from executable
 ```
 (lldb) target create --arch arm main
 ```
