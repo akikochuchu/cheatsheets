@@ -5,7 +5,7 @@ Mount the **DeveloperDiskImage.dmg**
 hdiutil attach /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/8.0\ \(12A365\)/DeveloperDiskImage.dmg
 ```
 
-Copy the ```debugserver``
+Copy the ```debugserver```
 ```
 cp /Volumes/DeveloperDiskImage/usr/bin/debugserver /Users/rotlogix/
 ```
