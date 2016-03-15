@@ -1,23 +1,23 @@
 ##Registers
 
-- ```r0```  arg / scratch / result
-- ```r1```  arg / scratch / result
-- ```r2```  arg / scratch / result
-- ```r3```  arg / sratch  / result
-- ```r4```  register var
-- ```r5```  register var
-- ```r6```  register var
-- ```r7```  register var
-- ```r8```  register var
-- ```r9```  stack base
-- ```r10``` stack limit / stack chunk handle / register var
-- ```r11``` frame pointer
-- ```r12``` ip
-- ```r13``` stack pointer
-- ```r14``` link register
-- ```r15``` program counter
+- ```r0```  - arg / scratch / result
+- ```r1```  - arg / scratch / result
+- ```r2```  - arg / scratch / result
+- ```r3```  - arg / sratch  / result
+- ```r4```  - register var
+- ```r5```  - register var
+- ```r6```  - register var
+- ```r7```  - register var
+- ```r8```  - register var
+- ```r9```  - stack base
+- ```r10``` - stack limit / stack chunk handle / register var
+- ```r11``` - frame pointer
+- ```r12``` - ip
+- ```r13``` - stack pointer
+- ```r14``` - link register
+- ```r15``` - program counter
 
-##Branching (BL, BX, BLX) 
+##Branching - ```BL, BX, BLX```
 
 http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0204j/Cihfddaf.html
 
