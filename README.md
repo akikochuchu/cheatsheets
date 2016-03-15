@@ -1,2 +1,7 @@
 # cheatsheets
-Cheetsheats
+
+[android]()
+[ios]()
+[lldb]()
+[exploit developement]()
+[radamsa]()
