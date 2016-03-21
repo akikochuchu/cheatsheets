@@ -57,3 +57,9 @@ Decrypt iOS kernelcache:
 ```
 ./xpwntool ~/iOS-firmware/iPhone5,1_9.0_13A344/kernelcache.release.n41 ~/iOS-firmware/iPhone5,1_9.0_13A344/kernelcache.release.n41-decrypted -k 5ae7728a2915eaf5ddbcdd4069edcb59a5a848cec347a6596a989637eb0b497d -iv fe8e01332f1c45dbf1d062980930d026 -decrypt
 ```
+
+## Logs
+
+```
+idevicesyslog
+```
