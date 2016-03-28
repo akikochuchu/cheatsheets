@@ -63,3 +63,9 @@ Decrypt iOS kernelcache:
 ```
 idevicesyslog
 ```
+
+## Check Entitlements
+
+```
+codesign --display --entitlements - Demo.app
+```
