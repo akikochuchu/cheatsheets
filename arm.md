@@ -29,12 +29,16 @@ http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0204j/Cihfddaf.ht
 
 ## Multiple Register Data Transfer
 
-```LDMIA r0, {r3, r7}```
+```nasm
+LDMIA r0, {r3, r7}
+```
 
 - Load words addressed by ```r0``` into ```r3```, and ```r7```
 - Increment after each load
 
-```STM r1, {r6 - r8}```
+```nasm
+STM r1, {r6 - r8}
+```
 
 - Store ``r6, r7, r8`` into words addressed by ```r1```
 - Write back the final address into ```r1```
@@ -49,7 +53,7 @@ Each addressing mode includes a base memory address and an offset in bytes.
 
 **Format**
 
-```
+```nasm
 LDR r1, [r0, #4]
 
 r0 = 0x4000000 + 4 (0x40000004)
